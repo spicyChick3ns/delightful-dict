@@ -1,0 +1,52 @@
+Dictionary ADT: 
+Methods: 
+Insert: 
+	-inserts a new (key,value) pair
+	-key is of type integer, value is of type string
+	-does not return
+GetValue:
+	-returns the value of the given key
+	-takes 1 parameter of type int
+	-returns a value of type string
+	-Returns null if dictionary is empty / no existing value in dictionary
+	
+GetKey:
+	-returns all keys of the given value
+	-takes 1 parameter of type string
+	-Returns null if dictionary is empty / no existing value in dictionary
+	-Returns a string
+Remove: 
+	-remove the (key,value) pair of the given key
+	-takes 2 parameters: int key and String value
+	-Returns -1 if the dictionary is empty/DNE in dictionary
+	-Returns 0 if remove is successful
+Compare: 
+	-returns true if values of two keys are the same
+	-takes 2 parameters, both of which are of type int
+	-returns boolean value
+Count:
+	-returns the total number of (key,value) pairs currently in the dictionary
+	-does not take any parameters
+	-return type is integer
+isEmpty: 
+	-returns whether the dictionary is empty or not
+	-does not take parameters
+	-returns boolean value
+printKeys: 
+	-prints out all keys in the following format: {key1, key2, ..., keyN}
+	-does not take parameters
+	-does not return a value, but prints to standard output
+printDict:
+	-prints out all keys in the following format: {key1: v1, key2: v2, ..., keyN: vN}
+	-does not take parameters
+	-does not return a value, but prints to standard output
+printEmpty:
+	-prints out: {}
+	-does not take parameters
+	-returns null & prints to standard output
+ContainsVal:
+	-parameters: String value
+	-returns boolean value if value exists in dict
+Contains:
+	-parameters: int key
+	-returns boolean value if key exists in dict
