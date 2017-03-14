@@ -2,8 +2,6 @@
 
  *       -------------------
  *       Student Name: Gonzales, Melissa
- *       Student Number: 400018207
- *       Course Code: CS/SE 2XB3
  *       Lab Section: 02
  *       
  *       I attest that the following code being submitted is my own individual work.
